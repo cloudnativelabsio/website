@@ -1,3 +1,11 @@
-baseURL = 'https://cloudnativelabs.io/'
+baseURL = '/'
 languageCode = 'en-us'
 title = 'Cloud Native Labs'
+
+disableKinds = [ "RSS", "taxonomy", "taxonomyTerm" ]
+
+[taxonomies]
+stub = "stub"
+
+[markup.goldmark.renderer]
+unsafe = true
